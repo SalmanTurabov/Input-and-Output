@@ -1,0 +1,11 @@
+<h1>{{title.toUpperCase()}}</h1>
+<p>foo works!</p>
+
+<button (click)="onSayHi()">Say Hi!!!</button>
+
+
+<div>
+  <button (click)="couterChange.emit(counter - 1)">-1</button>
+  <span>{{counter}}</span>
+  <button (click)="couterChange.emit(counter + 1)">+1</button>
+</div>
